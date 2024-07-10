@@ -31,6 +31,28 @@ body {
   font-size: 18px;
 }
 
+#nature .columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#music .columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#celebrations .columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+footer {
+  margin: 20px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   navbar .a {
